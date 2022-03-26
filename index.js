@@ -16,7 +16,7 @@ const client = new Client({
 
 const axios = require("axios")
 //=============================================
-const channel_id = " " // Enter your channel id
+const channel_id = "Channel ID" // Enter your channel id
 //=============================================
 
 client.on('message', async (message) => {
@@ -36,4 +36,4 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} is online!`)
 })
 
-client.login(process.env.TOKEN);
+client.login("YOUR BOT TOKEN"); 
