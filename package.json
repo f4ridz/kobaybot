@@ -1,8 +1,8 @@
 {
-  "name": "mouse",
+  "name": "kobaybot",
   "version": "0.0.1",
-  "description": "",
-  "main": "mouse.js",
+  "description": "Basic open sourced Discord chat bot (AI) powered by Simsimi API",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
